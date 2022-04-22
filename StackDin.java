@@ -93,7 +93,7 @@ public class StackDin {
             Node actual = this.top;
             Node prev;
             char ch;
-            String phrase = " ";
+            String phrase = "";
             while (actual != null) {
                 ch = actual.getLetter();
                 phrase += ch;
